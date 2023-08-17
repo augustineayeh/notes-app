@@ -12,7 +12,6 @@ class LogInButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: const EdgeInsets.symmetric(horizontal: 65),
         margin: const EdgeInsets.only(bottom: 20),
         decoration: BoxDecoration(
             border: Border.all(color: Colors.grey),

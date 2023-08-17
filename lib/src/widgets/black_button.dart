@@ -13,11 +13,10 @@ class BlackButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 600,
+      width: double.infinity,
       height: 55,
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 70),
               backgroundColor: Colors.black,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20))),
